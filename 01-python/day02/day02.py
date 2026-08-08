@@ -97,11 +97,11 @@ print(type(year))
 '''
 Nothing is printed to the screen. Instead, Python waits for you to enter something.
 For example, when you run:
-age = input()
+year = input()
 the terminal will appear blank: |
 Python is waiting for input.
 If you type:
-25
-and press Enter, then: age contains: "25"
-Notice the quotes conceptually — age is a string, not a
+2026
+and press Enter, then: year contains: "2026"
+Notice the quotes conceptually — year is a string, not a number.
 '''
