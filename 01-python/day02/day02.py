@@ -37,7 +37,7 @@ TypeError: can only concatenate str (not "int") to str
 
 
 #Code for AI Engineer Learning Tracker
-
+'''
 print("=" * 50)
 print("AI Engineer Learning Tracker")
 print("=" * 50)
@@ -61,6 +61,7 @@ print("\nKeep showing up every day! 🚀")
 print(type(name))
 print(type(study_hours))
 print(type(study_hours1))
+'''
 #Output
 '''
 ==================================================
@@ -84,4 +85,23 @@ Keep showing up every day! 🚀
 <class 'float'>
 <class 'str'>
 '''
+age = "20"
+print(age * 3) #output: 202020
 
+age1 = 21
+print(age1 * 3) #output:63
+
+year=input()  
+print(type(year))
+#output
+'''
+Nothing is printed to the screen. Instead, Python waits for you to enter something.
+For example, when you run:
+age = input()
+the terminal will appear blank: |
+Python is waiting for input.
+If you type:
+25
+and press Enter, then: age contains: "25"
+Notice the quotes conceptually — age is a string, not a
+'''
