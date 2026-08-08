@@ -1,7 +1,7 @@
 # AI Software Engineer Roadmap 🚀
 
 ## Goal
-Become an AI Software Engineer specializing in RAG and Agentic AI in 120 days.
+Become an AI Software Engineer specializing in RAG and Agentic AI.
 
 ## Roadmap
 
