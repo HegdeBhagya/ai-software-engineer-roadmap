@@ -1,4 +1,4 @@
-﻿#Basic Git checks
+﻿#Basic python program.
 print("=" * 50)
 print("AI Software Engineer Roadmap")
 print("=" * 50)
