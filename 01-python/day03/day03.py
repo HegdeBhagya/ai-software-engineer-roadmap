@@ -122,3 +122,127 @@ print("javascript" not in languages)
 True
 True
 '''
+#-----------------------------------------------------------------------------------------------------------------
+
+#Identity Operators: is, is not
+'''
+a = None
+print(a is None)
+print(a is not None)
+'''
+#Output:
+'''
+True
+False
+'''
+#we frequently see:  if result is None:
+#This is different from ==, 
+#== asks: Do these values compare equal?
+#is asks: Are these the same object?
+#-----------------------------------------------------------------------------------------------------------------
+'''
+print("=" * 50)
+print("PYTHON OPERATORS")
+print("=" * 50)
+
+a = 20
+b = 6
+
+print("\n--- Arithmetic ---")
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Floor Division:", a // b)
+print("Remainder:", a % b)
+print("Power:", a ** b)
+
+print("\n--- Comparison ---")
+
+print("a == b:", a == b)
+print("a != b:", a != b)
+print("a > b:", a > b)
+print("a < b:", a < b)
+print("a >= b:", a >= b)
+print("a <= b:", a <= b)
+
+similarity_score = 0.82
+minimum_score = 0.70
+
+print("\n--- RAG Decision ---")
+
+if similarity_score >= minimum_score:
+    print("Document is relevant")
+else:
+    print("Document is not relevant")
+'''
+
+#Output:
+'''
+==================================================
+PYTHON OPERATORS
+==================================================
+
+--- Arithmetic ---
+Addition: 26
+Subtraction: 14
+Multiplication: 120
+Division: 3.3333333333333335
+Floor Division: 3
+Remainder: 2
+Power: 64000000
+
+--- Comparison ---
+a == b: False
+a != b: True
+a > b: True
+a < b: False
+a >= b: True
+a <= b: False
+
+--- RAG Decision ---
+Document is relevant 
+'''
+#-----------------------------------------------------------------------------------------------------------------
+'''
+name = input("Enter your name: ")
+daily_hours = float(input("How many hours can you study daily? "))
+days = int(input("How many days do you want to study? "))
+
+total_hours = daily_hours * days
+
+print("\n===== STUDY PLAN =====")
+print(f"Student: {name}")
+print(f"Daily hours: {daily_hours}")
+print(f"Study days: {days}")
+print(f"Total study hours: {total_hours}")
+
+if total_hours >= 300:
+    print("Excellent commitment!")
+elif total_hours >= 200:
+    print("Good commitment!")
+else:
+    print("Keep increasing your consistency!")
+'''
+
+#Output:
+'''
+Enter your name: Bhagya
+How many hours can you study daily? 2.5
+How many days do you want to study? 120
+
+===== STUDY PLAN =====
+Student: Bhagya
+Daily hours: 2.5
+Study days: 120
+Total study hours: 300.0
+Excellent commitment!
+'''
+'''
+x = 10
+x += 5
+x *= 2
+
+print(x) 
+'''
+#output:30
