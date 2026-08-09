@@ -19,7 +19,7 @@ c=2
 print(a + b)   # Addition
 print(a - b)   # Subtraction
 print(a * b)   # Multiplication
-print(a / b)   # Division : /Always gives a decimal (float)
+print(a / c)   # Division : /Always gives a decimal (float)
 print(a // c)  # Floor division : 10 // 3 Result:3
 print(a % b)   # Modulus : Gives the remainder
 print(a ** c)  # Power
@@ -29,7 +29,7 @@ print(a ** c)  # Power
 23
 -3
 130
-0.7692307692307693
+5.0
 5
 10
 100
@@ -238,11 +238,33 @@ Study days: 120
 Total study hours: 300.0
 Excellent commitment!
 '''
+#-----------------------------------------------------------------------------------------------------------------
 '''
 x = 10
 x += 5
 x *= 2
-
 print(x) 
 '''
 #output:30
+
+#-----------------------------------------------------------------------------------------------------------------
+'''
+a=10
+b=20
+c={10,20,30}
+
+print(f"Addition: {a+b}", a+b)
+print(a==b)
+print(10 not in c)
+print(a is not c)
+print(a is c)
+'''
+
+#Output:
+'''
+Addition: 30 30
+False
+False
+True
+False
+'''
